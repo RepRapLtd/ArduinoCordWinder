@@ -1,0 +1,346 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMAX
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+ 70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+0
+  3
+Solid line
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+1
+  0
+LAYER
+  2
+0
+ 70
+64
+ 62
+7
+  6
+continuous
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+ 70
+1
+  0
+STYLE
+  2
+STANDARD
+ 70
+0
+ 40
+0
+ 41
+1.0
+ 50
+0.0
+ 71
+0
+ 42
+1
+ 3
+ARIAL.TTF
+ 4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+ 70
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  8
+laser-sections
+  2
+CUT042_CS
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+CUT042_CS
+  0
+POLYLINE
+  8
+laser-sections
+ 62
+0
+ 70
+1
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+laser-sections
+ 10
+19.0
+ 20
+-3.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+19.0
+ 20
+-19.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+131.0
+ 20
+-19.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+131.0
+ 20
+-3.0
+ 30
+51.5
+  0
+SEQEND
+  8
+laser-sections
+  0
+CIRCLE
+  8
+laser-sections
+ 62
+0
+ 10
+126.0
+ 20
+-7.0
+ 30
+51.5
+ 40
+1.6
+  0
+CIRCLE
+  8
+laser-sections
+ 62
+0
+ 10
+30.0
+ 20
+-7.0
+ 30
+51.5
+ 40
+1.6
+  0
+CIRCLE
+  8
+laser-sections
+ 62
+0
+ 10
+30.0
+ 20
+-15.0
+ 30
+51.5
+ 40
+1.6
+  0
+CIRCLE
+  8
+laser-sections
+ 62
+0
+ 10
+126.0
+ 20
+-15.0
+ 30
+51.5
+ 40
+1.6
+  0
+POLYLINE
+  8
+laser-sections
+ 62
+0
+ 70
+1
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+laser-sections
+ 10
+121.0
+ 20
+-9.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+121.0
+ 20
+-13.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+35.0
+ 20
+-13.0
+ 30
+51.5
+  0
+VERTEX
+  8
+laser-sections
+ 10
+35.0
+ 20
+-9.0
+ 30
+51.5
+  0
+SEQEND
+  8
+laser-sections
+  0
+ENDBLK
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+INSERT
+  2
+CUT042_CS
+  8
+laser-sections
+ 62
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  0
+ENDSEC
+  0
+EOF
