@@ -4719,11 +4719,11 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 </net>
 <net name="DIG2" class="0">
 <segment>
-<pinref part="PWML" gate="A" pin="5"/>
-<wire x1="86.36" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="P" pin="FIN"/>
-<wire x1="30.48" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="P" pin="RIN"/>
+<wire x1="86.36" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="PWML" gate="A" pin="4"/>
+<wire x1="86.36" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIG5" class="0">
@@ -4793,6 +4793,15 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <segment>
 <wire x1="119.38" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PWMH" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="DIG3" class="0">
+<segment>
+<pinref part="IC1" gate="P" pin="FIN"/>
+<wire x1="30.48" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="45.72" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="PWML" gate="A" pin="5"/>
+<wire x1="83.82" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIG4" class="0">
@@ -4917,15 +4926,6 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <pinref part="PVCELL" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="111.76" x2="-22.86" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="PWML" gate="A" pin="4"/>
-<wire x1="88.9" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="55.88" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="P" pin="RIN"/>
-<wire x1="88.9" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
